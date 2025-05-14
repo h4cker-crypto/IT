@@ -1,0 +1,11 @@
+AdminDirectoryFinder — утилита для поиска админок
+
+Инструмент для сканирования и выявления директорий в админ-зонах, таких как admin/dashboard.php. Полезен для пентестеров и разработчиков, чтобы находить скрытые панели управления и проверять, как настроены меры доступа и безопасности.
+
+Подходит для аудита и черного/белого тестирования веб-приложений.
+
+GitHub: https://github.com/tausifzaman/AdminDirectoryFinder
+
+Установка одной строкой:
+
+git clone https://github.com/tausifzaman/AdminDirectoryFinder.git && cd AdminDirectoryFinder && pip install -r requirements.txt && python3 main.py
