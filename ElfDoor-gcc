@@ -1,0 +1,4 @@
+ElfDoor-gcc — это payload на базе LD_PRELOAD, который перехватывает работу gcc и встраивает вредоносный код прямо в бинарники на этапе линковки, не трогая исходники
+
+Статья: https://matheuzsecurity.github.io/hacking/gcc/
+GitHub: https://github.com/MatheuZSecurity/ElfDoor-gcc
